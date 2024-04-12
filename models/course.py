@@ -8,3 +8,8 @@ class Course(BaseModel):
     name: str
     location: str
     holes: int
+
+class CreateCourseRequest(BaseModel):
+    name: str
+    location: str
+    holes: int
